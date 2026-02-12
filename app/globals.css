@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import 'remixicon/fonts/remixicon.css';
+
 
 :root {
   --background: #ffffff;
@@ -22,5 +24,28 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
+}
+
+@theme{
+  --color-btn : #00A1B3;
+  --color-btn2 : #F2F3F5;
+  --color-starbg1 : #FF9B04;
+  --color-starbg2 : #BBBBBB;
+  --color-money : #C91010;
+  --color-br1 : #424750;
+  --color-br2 : #FFA200;
+  --color-icons :#B2B2B5;
+  
+}
+@layer utility{
+  .shadow1 {
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.12);
+  }
+  .shadow2 {
+    box-shadow: 1px -5px 12px rgba(0, 0, 0, 0.12);
+  }
+}
+html, body {
+  overflow-x: hidden;
 }
