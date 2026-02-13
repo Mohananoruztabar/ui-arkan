@@ -4,16 +4,16 @@ import { FaStar } from "react-icons/fa";
 import { PiClockFill } from "react-icons/pi";
 
 function News() {
-  return (
+  return(
     <div className='mt-16'>
         <Container>
-            <div className='flex justify-between text-right'>
-                <h3 className='text-gray-600 text-lg ml-2 lg:ml-0 lg:text-2xl font-bold'> مشاهده همه +</h3>
-                <h2 className='text-2xl text-gray-600 font-bold'>آخرین اخبار و مطالب سایت</h2>
+            <div className='flex flex-col lg:flex-row-reverse justify-between items-end lg:items-center text-right gap-3'>
+                <h2 className='text-xl sm:text-2xl text-gray-600 font-bold'>آخرین اخبار و مطالب سایت</h2>
+                <h3 className='text-gray-600 text-sm sm:text-lg font-bold cursor-pointer'> مشاهده همه +</h3>
             </div>
-            <div className='grid grid-cols-2 md:grid-cols-3 gap-5 mt-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-10'>
                 <div className='bg-white shadow1 rounded-xl p-2'>
-                    <figure>
+                    <figure >
                         <img src="/photo-1589361580298-73eaccc5fd96.png" alt="" />
                     </figure>
                     <h4 className='text-right text-sm font-bold text-gray-700 mt-3'>لورم ایپسوم متن ساختگی تیم طراحی سپهر پلاس برای قسمت عنوان وبلاگ</h4>

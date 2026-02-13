@@ -1,7 +1,12 @@
-import React from 'react'
+"use client"
+import React , { useState} from 'react'
 import Container from './Container'
 
 function Navbar() {
+
+  const [open, setOpen] = useState(false)
+
+
   return (
     <div className='w-full h-16 md:h-20 lg:h-24 flex items-center shadow1 relative z-30'>
       <Container>
@@ -39,14 +44,26 @@ function Navbar() {
               />
             </figure>
             
-            <button className="lg:hidden flex flex-col gap-1 p-2">
+            <button onClick={() => setOpen(!open)} className="lg:hidden flex flex-col gap-1 p-2">
               <span className="w-6 h-0.5 bg-gray-700"></span>
               <span className="w-6 h-0.5 bg-gray-700"></span>
               <span className="w-6 h-0.5 bg-gray-700"></span>
             </button>
           </div>
-          
         </div>
+        {open && (
+          <div className="lg:hidden absolute top-16 right-0 w-full bg-white shadow-md p-2">
+            <ul className="flex flex-col text-sm text-right">
+              <li className='hover:bg-gray-100 py-2 px-1'>صفحه ی اصلی</li>
+              <li className='hover:bg-gray-100 py-2 px-1'>خدمات ما</li>
+              <li className='hover:bg-gray-100 py-2 px-1'>مرکز آموزش</li>
+              <li className='hover:bg-gray-100 py-2 px-1'>نمونه کارها</li>
+              <li className='hover:bg-gray-100 py-2 px-1'>اخبار و مقالات</li>
+              <li className='hover:bg-gray-100 py-2 px-1'>درباره ما</li>
+              <li className='hover:bg-gray-100 py-2 px-1'>تماس با ما</li>
+            </ul>
+          </div>
+        )}
       </Container>
     </div>
   )

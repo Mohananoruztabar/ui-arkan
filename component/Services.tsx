@@ -4,10 +4,10 @@ import Container from './Container'
 function Services() {
   return (
     <div className='mt-10'>
-        <h2 className='text-3xl text-btn text-center'>خدمات آرکان پرداز  <b className='text-gray-700'> در یک نگاه</b></h2>
+        <h2 className='text-xl sm:text-2xl text-btn text-center font-bold'>خدمات آرکان پرداز  <b className='text-gray-700 font-bold text-xl sm:text-2xl'> در یک نگاه</b></h2>
         <p className='text-gray-800 text-sm text-center mt-10 mx-4 lg:mx-0'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
         <Container>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10 gap-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-10 gap-6'>
                 <article className='shadow1 bg-white rounded-2xl flex flex-col items-center py-2 lg:py-5 mx-2'>
                     <figure className='h-32 flex items-center justify-center'>
                         <img className='w-20 lg:w-36' src="/4028570.png" alt="" />

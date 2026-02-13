@@ -8,17 +8,17 @@ import localFont from 'next/font/local'
 const familyFont = localFont({
   src: [
     {
-      path: '../public/font/Yekan-Bakh-Family/ttf/YekanBakh-Regular.ttf',
+      path: '../app/font/Yekan-Bakh-Family/ttf/YekanBakh-Regular.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../public/font/yekan-bakh-fanum/ttf/YekanBakhFaNum-Regular.ttf',
+      path: '../app/font/yekan-bakh-fanum/ttf/YekanBakhFaNum-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/font/Yekan-Bakh-NoEn/ttf/YekanBakhNoEn-Regular.ttf',
+      path: '../app/font/Yekan-Bakh-NoEn/ttf/YekanBakhNoEn-Regular.ttf',
       weight: '700',
       style: 'normal',
     },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
