@@ -7,11 +7,11 @@ function News() {
   return(
     <div className='mt-16'>
         <Container>
-            <div className='flex flex-col lg:flex-row-reverse justify-between items-end lg:items-center text-right gap-3'>
+            <div className='flex flex-col lg:flex-row-reverse justify-between items-end lg:items-center text-right gap-3 px-2 lg:px-0'>
                 <h2 className='text-xl sm:text-2xl text-gray-600 font-bold'>آخرین اخبار و مطالب سایت</h2>
                 <h3 className='text-gray-600 text-sm sm:text-lg font-bold cursor-pointer'> مشاهده همه +</h3>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-10'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-2 lg:gap-5 px-2 lg:px-0 mt-10'>
                 <div className='bg-white shadow1 rounded-xl p-2'>
                     <figure >
                         <img src="/photo-1589361580298-73eaccc5fd96.png" alt="" />

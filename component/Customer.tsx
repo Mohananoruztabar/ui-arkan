@@ -6,7 +6,7 @@ function Customer() {
     <div className='mt-16'>
       <Container>
 
-        <div className='flex flex-col lg:flex-row-reverse justify-between items-end lg:items-center text-right gap-3'>
+        <div className='flex flex-col lg:flex-row-reverse justify-between items-end lg:items-center text-right gap-3 px-2 lg:px-0'>
           <h2 className='text-xl sm:text-2xl text-gray-600 font-bold'> برخی از مشتریان ما</h2>
           <h3 className='text-gray-600 text-sm sm:text-lg font-bold cursor-pointer'> مشاهده همه +</h3>
         </div>
