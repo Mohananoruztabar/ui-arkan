@@ -22,10 +22,10 @@ function News() {
                     <div className='flex justify-between mt-3'>
                         <ul className='flex items-center flex-row-reverse'>
                             <li className='text-gray-500 text-sm md:text-lg md:ml-2 lg:text-xl'><PiClockFill /></li>
-                            <li className='text-gray-500 text-[12px] md:text-sm'>یک دقیقه </li>
+                            <li className='text-gray-500 text-[10px] sm:text-[12px] md:text-sm'>یک دقیقه </li>
                         </ul>
                         <div className='flex justify-end-safe items-center'>
-                            <h2 className='text-gray-600 text-[12px] md:text-sm'>صمد سپهری</h2>
+                            <h2 className='text-gray-600 text-[10px] sm:text-[12px] md:text-sm'>صمد سپهری</h2>
                             <figure className='-mr-3'>
                                 <img src="/images.png" alt="" />
                             </figure>
@@ -42,10 +42,10 @@ function News() {
                     <div className='flex justify-between mt-3'>
                         <ul className='flex items-center flex-row-reverse'>
                             <li className='text-gray-500 text-sm md:text-lg md:ml-2 lg:text-xl'><PiClockFill /></li>
-                            <li className='text-gray-500 text-[12px] md:text-sm'>یک دقیقه </li>
+                            <li className='text-gray-500 text-[10px] sm:text-[12px] md:text-sm'>یک دقیقه </li>
                         </ul>
                         <div className='flex justify-end-safe items-center'>
-                            <h2 className='text-gray-600 text-[12px] md:text-sm'>صمد سپهری</h2>
+                            <h2 className='text-gray-600 text-[10px] sm:text-[12px] md:text-sm'>صمد سپهری</h2>
                             <figure className='-mr-3'>
                                 <img src="/images.png" alt="" />
                             </figure>
@@ -62,10 +62,10 @@ function News() {
                     <div className='flex justify-between mt-3'>
                         <ul className='flex items-center flex-row-reverse'>
                             <li className='text-gray-500 text-sm md:text-lg md:ml-2 lg:text-xl'><PiClockFill /></li>
-                            <li className='text-gray-500 text-[12px] md:text-sm'>یک دقیقه </li>
+                            <li className='text-gray-500 text-[10px] sm:text-[12px] md:text-sm'>یک دقیقه </li>
                         </ul>
                         <div className='flex justify-end-safe items-center'>
-                            <h2 className=' text-[12px] md:text-sm'>صمد سپهری</h2>
+                            <h2 className='text-[10px] sm:text-[12px] md:text-sm'>صمد سپهری</h2>
                             <figure className='-mr-3'>
                                 <img src="/images.png" alt="" />
                             </figure>
