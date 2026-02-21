@@ -61,7 +61,7 @@ function Education() {
                     <span className='block border-dashed border border-gray-400 w-full'></span>
                     <div className='text-right flex justify-between mt-5 items-center gap-2'>
                         <button className='w-28 md:w-36 h-10 lg:w-44 lg:h-12 text-[12px] lg:text-sm bg-btn2 text-gray-600 rounded-lg font-bold'>ثبت نام در دوره</button>
-                        <h5 className='flex flex-row-reverse text-money font-bold text-[12px] lg:text-sm'>رایگان</h5>
+                        <h5 className='flex flex-row-reverse text-money font-bold text-[10px] sm:text-[12px] lg:text-sm'>رایگان</h5>
                     </div>
                 </div>
                 <div className='bg-white shadow1 rounded-xl p-2 mt-2'>
