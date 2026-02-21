@@ -21,11 +21,11 @@ function News() {
                     <p className='text-gray-500 text-[12px] lg:text-sm text-right mt-3'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است برای زیبا سازی مطالب</p>
                     <div className='flex justify-between mt-3'>
                         <ul className='flex items-center flex-row-reverse'>
-                            <li className='text-gray-500 ml-2 text-lg lg:text-xl'><PiClockFill /></li>
-                            <li className='text-gray-500 text-sm'>یک دقیقه </li>
+                            <li className='text-gray-500 text-sm md:text-lg md:ml-2 lg:text-xl'><PiClockFill /></li>
+                            <li className='text-gray-500 text-[12px] md:text-sm'>یک دقیقه </li>
                         </ul>
                         <div className='flex justify-end-safe items-center'>
-                            <h2 className='text-gray-600 text-sm'>صمد سپهری</h2>
+                            <h2 className='text-gray-600 text-[12px] md:text-sm'>صمد سپهری</h2>
                             <figure className='-mr-3'>
                                 <img src="/images.png" alt="" />
                             </figure>
@@ -41,11 +41,11 @@ function News() {
                     <p className='text-gray-500 text-[12px] lg:text-sm text-right mt-3'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است برای زیبا سازی مطالب</p>
                     <div className='flex justify-between mt-3'>
                         <ul className='flex items-center flex-row-reverse'>
-                            <li className='text-gray-500 ml-2 text-lg lg:text-xl'><PiClockFill /></li>
-                            <li className='text-gray-500 text-sm'>یک دقیقه </li>
+                            <li className='text-gray-500 text-sm md:text-lg md:ml-2 lg:text-xl'><PiClockFill /></li>
+                            <li className='text-gray-500 text-[12px] md:text-sm'>یک دقیقه </li>
                         </ul>
                         <div className='flex justify-end-safe items-center'>
-                            <h2 className='text-gray-600 text-sm'>صمد سپهری</h2>
+                            <h2 className='text-gray-600 text-[12px] md:text-sm'>صمد سپهری</h2>
                             <figure className='-mr-3'>
                                 <img src="/images.png" alt="" />
                             </figure>
@@ -61,11 +61,11 @@ function News() {
                     <p className='text-gray-500 text-right text-[12px] lg:text-sm mt-3'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است برای زیبا سازی مطالب</p>
                     <div className='flex justify-between mt-3'>
                         <ul className='flex items-center flex-row-reverse'>
-                            <li className='text-gray-500 ml-2 text-lg lg:text-xl'><PiClockFill /></li>
-                            <li className='text-gray-500 text-sm'>یک دقیقه </li>
+                            <li className='text-gray-500 text-sm md:text-lg md:ml-2 lg:text-xl'><PiClockFill /></li>
+                            <li className='text-gray-500 text-[12px] md:text-sm'>یک دقیقه </li>
                         </ul>
                         <div className='flex justify-end-safe items-center'>
-                            <h2 className=' text-gray-600 text-sm'>صمد سپهری</h2>
+                            <h2 className=' text-[12px] md:text-sm'>صمد سپهری</h2>
                             <figure className='-mr-3'>
                                 <img src="/images.png" alt="" />
                             </figure>

@@ -11,7 +11,7 @@ function Customer() {
           <h3 className='text-gray-600 text-sm sm:text-lg font-bold cursor-pointer'> مشاهده همه +</h3>
         </div>
 
-        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 mt-10 gap-5'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 mt-10 gap-5 mx-2'>
           
           <figure className='bg-white rounded-xl flex justify-center items-center shadow1 p-4'>
             <img className='w-20 sm:w-24 object-contain' src="/رستوران-غذای-ایرانی-150x75.png" alt="" />
