@@ -34,7 +34,7 @@ function Education() {
                     </div>
                     <span className='block border-dashed border border-gray-400 w-full'></span>
                     <div className='text-right flex justify-between mt-5 items-center gap-2'>
-                        <button className='w-36 h-10 lg:w-44 lg:h-12 text-[12px] lg:text-sm bg-btn2 text-gray-600 rounded-lg font-bold'>ثبت نام در دوره</button>
+                        <button className='w-36 h-10 lg:w-44 lg:h-12 text-[10px] sm:text-[12px] lg:text-sm bg-btn2 text-gray-600 rounded-lg font-bold'>ثبت نام در دوره</button>
                         <h5 className='flex flex-row-reverse text-money font-bold text-[12px] lg:text-sm'><span className='ml-2 text-[12px] lg:text-sm text-money font-light'>67,000</span>تومان</h5>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ function Education() {
                     </div>
                     <span className='block border-dashed border border-gray-400 w-full'></span>
                     <div className='text-right flex justify-between mt-5 items-center gap-2'>
-                        <button className='w-36 h-10 lg:w-44 lg:h-12 text-[12px] lg:text-sm bg-btn2 text-gray-600 rounded-lg font-bold'>ثبت نام در دوره</button>
+                        <button className='w-36 h-10 lg:w-44 lg:h-12 text-[10px] sm:text-[12px] lg:text-sm bg-btn2 text-gray-600 rounded-lg font-bold'>ثبت نام در دوره</button>
                         <h5 className='flex flex-row-reverse text-[12px] lg:text-sm text-money font-bold'><span className='ml-2 text-[12px] lg:text-sm text-money font-light'>67,000</span>تومان</h5>
                     </div>
                 </div>
